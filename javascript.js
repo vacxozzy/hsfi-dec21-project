@@ -1,5 +1,6 @@
 $(document).ready(function(){
    $('.all-content').hide(); 
+   $('#goals-content').show();
 });
 
 /*
@@ -26,4 +27,21 @@ $("#takeover-button").click(function(){
 
 $("#takeover-form-button").click(function(){
     $("#site-title").html("Your site now belongs to: " + $("#takeover-input").val())
+    $('#site-title').css('background-color', '#990000');
+    $('#site-title').css('color', '#ffffff');
+});
+
+$("#past-button").click(function(){
+    $('.all-content').hide();
+    $('#past-content').show();
+});
+
+$("#dark-button").click(function(){
+    $('body').css('background-color', '#333333');
+    $('body').css('color', '#ffffff');
+    
+});
+
+$('#donotpress-button').click(function(){
+   alert('I TOLD YOU NOT TO PRES ME!') 
 });
