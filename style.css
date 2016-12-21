@@ -1,9 +1,12 @@
 body {
     margin: 20px;
-    font-family: 'Mirza';
     font-size: 150%;
 }
 
 .all-content {
     padding: 10px;
+}
+
+.btn {
+    margin: 5px;
 }
